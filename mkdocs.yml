@@ -1,0 +1,15 @@
+site_name: Incidentes Ciberseguridad
+docs_dir: "md"
+site_dir: "docs"
+
+nav:
+    - Índice: index.md
+    - Introducción: 01_intro.md
+    - Estrategia empresarial: 02_estrategia_empresarial.md
+    - Técnicas y herramientas: 03_herramientas_y_tecnicas.md
+    - Estrategias implantación: 04_estrategias.md
+    - Evolución: 05_evolucion_historica.md
+    - Conclusiones: 06_conclusiones.md
+
+theme:
+  name: readthedocs
