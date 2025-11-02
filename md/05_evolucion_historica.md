@@ -1,6 +1,4 @@
-# Formación en Concienciación en Ciberseguridad
-
-## 5 La Evolución de la Concienciación: De un PowerPoint Anual a una Cultura de Seguridad
+# 5 La Evolución de la Concienciación: De un PowerPoint Anual a una Cultura de Seguridad
 
 Para finalizar siempre es interesante mirar hacia atrás para ver de dónde venimos y tener conciencia de la evolución que se ha producido.
 La formación en concienciación no ha sido siempre la disciplina estratégica que es hoy. En los últimos 20 años, ha experimentado una profunda transformación, pasando de ser una simple formalidad de cumplimiento a convertirse en un pilar fundamental de la ciberdefensa. Esta evolución puede dividirse en cuatro eras principales:

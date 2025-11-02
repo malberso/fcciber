@@ -1,6 +1,4 @@
-# Formación en Concienciación en Ciberseguridad
-
-## 1. ¿Qué es la Formación en Concienciación?
+# 1. ¿Qué es la Formación en Concienciación?
 
 La **formación en concienciación en ciberseguridad** (a menudo llamada *Security Awareness Training*) no es simplemente una presentación de PowerPoint anual sobre contraseñas seguras.
 

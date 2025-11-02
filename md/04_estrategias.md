@@ -1,6 +1,4 @@
-# Formación en Concienciación en Ciberseguridad
-
-## 4 Estrategias para la Creación de un Plan de Concienciación
+# 4 Estrategias para la Creación de un Plan de Concienciación
 
 No existe una única estrategia válida para todas las organizaciones. La elección correcta dependerá de la madurez de la empresa, su cultura, su tamaño, su sector y los riesgos específicos a los que se enfrenta.
 

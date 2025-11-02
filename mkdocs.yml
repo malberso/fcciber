@@ -1,15 +1,44 @@
-site_name: Incidentes Ciberseguridad
+site_name: Tasca4-Material
 docs_dir: "md"
 site_dir: "docs"
-
-nav:
-    - Índice: index.md
-    - Introducción: 01_intro.md
-    - Estrategia empresarial: 02_estrategia_empresarial.md
-    - Técnicas y herramientas: 03_herramientas_y_tecnicas.md
-    - Estrategias implantación: 04_estrategias.md
-    - Evolución: 05_evolucion_historica.md
-    - Conclusiones: 06_conclusiones.md
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 theme:
-  name: readthedocs
+  name: 'material'
+  font:
+    text: 'Roboto, sans-serif'
+    code: 'Courier New, monospace'
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Modo oscuro
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+features:
+  - navigation.sections
+plugins:
+  - search
+  - page-to-pdf:
+      # Opciones del plugin
+      disable: false
+      disableOnServe: false
+      scale: 1.0
+      format: A4
+      margin:
+        top: "20px"
+        right: "20px"
+        bottom: "20px"
+        left: "20px"
+
+

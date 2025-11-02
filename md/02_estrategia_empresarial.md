@@ -1,12 +1,11 @@
-# Formación en Concienciación en Ciberseguridad
-
-## 2 El Desafío de la Concienciación: de Táctica Técnica a Estrategia Empresarial
+# 2 El Desafío de la Concienciación: de Táctica Técnica a Estrategia Empresarial
 
 Como futuros profesionales de la ciberseguridad, sabemos que la tecnología por sí sola es insuficiente. Podemos implementar los *firewalls* más avanzados, sistemas EDR de última generación y filtros de correo robustos, pero la realidad es que el eslabón más explotado y, a la vez, el más potente de la cadena de defensa sigue siendo el mismo: **el factor humano**.
 
 Los actores maliciosos lo saben. La abrumadora mayoría de las intrusiones exitosas, especialmente las que derivan en **ransomware** devastadores que paralizan organizaciones, no comienzan con un fallo de software, sino con un engaño: un ataque de **phishing** bien diseñado.
 
-Aquí es donde vuestro rol trasciende lo puramente técnico. No sois solo administradores de sistemas; sois **gestores del riesgo humano**.
+!!! note "OJO!"
+    Aquí es donde vuestro rol trasciende lo puramente técnico. No sois solo administradores de sistemas; sois **gestores del riesgo humano**.
 
 
 ### 2.1 El Argumento de Negocio: Justificando la Inversión frente a Dirección
@@ -23,14 +22,19 @@ Por esta razón debemos aprender a articular el "por qué" en términos que un C
 
 Es el riesgo más inmediato y tangible. No se trata solo de que "un ordenador no funcione"; se trata de que **la organización no puede operar**.
 
-* **Ejemplo, Ransomware:** Un ataque de **ransomware** es el ejemplo paradigmático. Al cifrar los servidores de archivos, las bases de datos de clientes o los sistemas de gestión (ERP), el ataque **paraliza por completo la actividad de la empresa**.
+
+
+??? example "**Ejemplo, Ransomware:**"
+    Un ataque de **ransomware** es el ejemplo paradigmático. Al cifrar los servidores de archivos, las bases de datos de clientes o los sistemas de gestión (ERP), el ataque **paraliza por completo la actividad de la empresa**.
+    
 * **Impacto Directo:**
     * Incapacidad para fabricar productos.
     * Incapacidad para procesar pedidos o emitir facturas.
     * Pérdida de productividad (cientos de empleados sin poder trabajar).
     * Costes de la remediación técnica (forense, restauración de copias, etc.).
 
-Es el riesgo que afecta directamente al **flujo de caja y a la capacidad de generar ingresos** en el día a día.
+!!! abstract "En definitiva.."
+     Es el riesgo que afecta directamente al **flujo de caja y a la capacidad de generar ingresos** en el día a día.
 
 ##### b) Riesgo Reputacional
 
@@ -38,13 +42,16 @@ Es el riesgo que afecta directamente al **flujo de caja y a la capacidad de gene
 
 Este riesgo es menos tangible que el operativo, pero su impacto puede ser mucho más duradero y devastador a largo plazo.
 
-* **Ejemplo, Fuga de Datos:** Una **fuga de datos** (*data breach*) donde se expone información sensible de los clientes (DNI, tarjetas de crédito, historial médico) es el golpe más directo a la reputación.
+??? example "**Ejemplo, Fuga de Datos:**"
+    Una **fuga de datos** (*data breach*) donde se expone información sensible de los clientes (DNI, tarjetas de crédito, historial médico) es el golpe más directo a la reputación.
+    
 * **Impacto Directo:**
     * **Fuga de Clientes:** Los clientes actuales pierden la confianza y se van a la competencia.
     * **Dificultad para Atraer Nuevo Negocio:** Los clientes potenciales no querrán hacer negocios con una empresa que no puede proteger sus datos.
     * **Deterioro de Relaciones con Socios:** Otros socios de la cadena de suministro pueden ver a la empresa como un riesgo para su propia seguridad.
 
-Es el riesgo de que la marca de la empresa se convierta en sinónimo de "inseguridad" o "negligencia".
+!!! abstract "En definitiva.."
+     Es el riesgo de que la marca de la empresa se convierta en sinónimo de "inseguridad" o "negligencia".
 
 ##### c) Riesgo Legal (o de Cumplimiento)
 
@@ -52,15 +59,38 @@ Es el riesgo de que la marca de la empresa se convierta en sinónimo de "insegur
 
 Este es un argumento no negociable para la alta dirección, ya que no depende de los atacantes, sino de la diligencia de la propia empresa.
 
-* **Ejemplo Incumplimiento del RGPD:** En nuestro contexto europeo, este riesgo está dominado por el **Reglamento General de Protección de Datos (RGPD)**.
+??? example "**Ejemplo Incumplimiento del RGPD:**"
+    En nuestro contexto europeo, este riesgo está dominado por el **Reglamento General de Protección de Datos (RGPD)**.
+    
 * **Impacto Directo:**
     * **Multas Millonarias:** Un incidente de seguridad (como un phishing exitoso que derive en fuga de datos) es un **incumplimiento legal** del Artículo 32 del RGPD (no tener las medidas técnicas y *organizativas* adecuadas). Las multas pueden alcanzar el 4% de la facturación global anual.
     * **Demandas Colectivas:** Los clientes cuyos datos han sido expuestos pueden interponer demandas legales contra la empresa.
     * **Inspecciones y Auditorías:** El incidente atraerá la atención de las Agencias de Protección de Datos (como la AEPD en España), resultando en auditorías costosas y obligatorias.
 
-Es el riesgo que transforma un fallo técnico en una **responsabilidad financiera y legal** multimillonaria.
+!!! abstract "En definitiva.."
+     Es el riesgo que transforma un fallo técnico en una **responsabilidad financiera y legal** multimillonaria.
 
 #### 2.1.2 Argumentos Clave para Justificar la Formación en Concienciación
+
+!!! warning "WARNING"
+    ```python
+    # Mientras el factor humano sea inferior al umbral de seguridad aceptable...
+    while factor_humano < riesgo_aceptable:
+        # La carencia de factor humano amplifica otros riesgos
+        riesgo_operativo *= 1.1
+        riesgo_reputacional *= 1.1
+        riesgo_legal *= 1.1
+
+        print("Riesgos en aumento por debilidad del factor humano:")
+        print(f"  - Riesgo operativo:     {riesgo_operativo}")
+        print(f"  - Riesgo reputacional:  {riesgo_reputacional}")
+        print(f"  - Riesgo legal:         {riesgo_legal}\n")
+
+        # Intento de mejora del factor humano (formación, cultura, liderazgo)
+        factor_humano += Inversion_Formacion_Concienciacion
+
+    print("Riesgos estabilizados: el factor humano ha alcanzado un nivel aceptable.")
+    ```
 
 Como responsables de ciberseguridad, vuestra capacidad para articular la necesidad de esta formación ante la alta dirección es tan crucial como vuestra habilidad técnica. Estos no son "gastos", son inversiones estratégicas. Aquí están las justificaciones clave:
 
@@ -148,3 +178,15 @@ Siempre será interesante mantener un tono directo, empático y de "equipo". El 
 **Resumen del Mensaje Central para una posible charla:**
 
 *"Equipo, los malos nos atacan a nosotros, a las personas, porque es más fácil que atacar a la tecnología. Esta formación es para daros las herramientas para defenderos, tanto aquí como en casa. No buscamos culpar, buscamos ayudarnos. Vosotros sois nuestra mejor defensa, y solo os pedimos una cosa: si algo os parece raro, por mínimo que sea, no os arriesguéis. Dadle al botón de reportar. Estamos en esto juntos."*
+
+**Diagrama de ideas**
+
+``` mermaid
+graph TD;
+  A[Formacion Concienciacion] --> B[Argumento de Negocio]
+  A[Formacion Concienciacion] --> C[Argumento Cultural]
+  B --> D[Riesgos]
+  B --> E[Argumentos Clave]
+  C --> F[Argumentario]
+```
+

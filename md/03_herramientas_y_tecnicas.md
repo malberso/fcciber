@@ -1,6 +1,4 @@
-# Formación en Concienciación en Ciberseguridad
-
-## 3 Herramientas y Técnicas para un Programa de Concienciación Eficaz
+# 3 Herramientas y Técnicas para un Programa de Concienciación Eficaz
 
 Como arquitectos de la cultura de seguridad, vuestro trabajo no es solo definir el "qué" (el riesgo) sino el "cómo" (la entrega). La elección de las herramientas y técnicas adecuadas determinará si vuestro programa es una formalidad ignorada o un agente de cambio real.
 
